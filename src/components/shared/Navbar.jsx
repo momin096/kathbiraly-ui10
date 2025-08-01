@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="bg-base-200 shadow-sm py-1 sticky">
+        <div className="bg-base-200 shadow-sm py-1 fixed top-0 md:top-10 z-50 w-full">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <a className=" text-xl max-w-28">
