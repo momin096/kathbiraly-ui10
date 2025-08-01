@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Product Name",
+    "price": 25950,
+    "originalPrice": 35800,
+    "reviewCount": 45,
+    "rating": 3,
+    "info": "piece 1",
+    "image": "https://i.ibb.co/TnSf0g3/4d159a908ee854b2e86dc58d4818b9251573f157.png"
+  },
+  {
+    "title": "Product Name",
+    "price": 54999,
+    "originalPrice": 67999,
+    "reviewCount": 87,
+    "rating": 5,
+    "info": "piece 2",
+    "image": "https://i.ibb.co/yFFKGGbp/f8c244c0db7b2b4b846bcd21d4a71d224a114ab7.png"
+  },
+  {
+    "title": "Product Name",
+    "price": 12500,
+    "originalPrice": 16500,
+    "reviewCount": 63,
+    "rating": 4,
+    "info": "piece 3",
+    "image": "https://i.ibb.co/dnkbXcg/a3969f615272e12a425c77a3427994b8dda6bc00.png"
+  },
+  {
+    "title": "Product Name",
+    "price": 75999,
+    "originalPrice": 89999,
+    "reviewCount": 102,
+    "rating": 5,
+    "info": "piece 4",
+    "image": "https://i.ibb.co/k2yMR0QL/6ec0bd9bddd0212d33e3355d9f86723c151c4d74.png"
+  },
+  {
+    "title": "Product Name",
+    "price": 18999,
+    "originalPrice": 22999,
+    "reviewCount": 38,
+    "rating": 4,
+    "info": "piece 5",
+    "image": "https://i.ibb.co/m5wmxd1J/ring.jpg"
+  }
+]

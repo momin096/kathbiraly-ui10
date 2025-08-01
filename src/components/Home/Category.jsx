@@ -44,7 +44,7 @@ const Category = () => {
                 </div>
 
                 {/* Cards container */}
-                <div className="flex gap-6 overflow-x-auto py-2 px-1">
+                <div className="flex flex-col md:flex-row gap-6 overflow-x-auto py-2 px-1">
                     {categories.map((cat) => (
                         <CategoryCard key={cat.name} {...cat} />
                     ))}
