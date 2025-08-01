@@ -1,10 +1,10 @@
 import Banner from "../components/Home/Banner";
+import BannerSlider from "../components/Home/BannerSlider";
 import Category from "../components/Home/Category";
 import DiscountProducts from "../components/Home/DiscountProducts";
 import Men from "../components/Home/Men";
 import Recommended from "../components/Home/Recommended";
 import Women from "../components/Home/Women";
-import ProductCard from "../components/ProductCard/ProductCard";
 
 const Home = () => {
     return (
@@ -14,6 +14,7 @@ const Home = () => {
             <div className="bg-gray-100">
                 <DiscountProducts />
                 <Women />
+                <BannerSlider />
                 <Men />
 
                 <Recommended />
