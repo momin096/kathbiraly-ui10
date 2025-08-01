@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Product Name",
+    "price": 25950,
+    "originalPrice": 35800,
+    "reviewCount": 45,
+    "rating": 3,
+    "info": "piece 1",
+    "image": "https://i.ibb.co/1Y8ZmjCH/88bab7f03dd26429e8ce00f700e45e9571204cb7.jpg"
+  },
+  {
+    "title": "Product Name",
+    "price": 54999,
+    "originalPrice": 67999,
+    "reviewCount": 87,
+    "rating": 5,
+    "info": "piece 2",
+    "image": "https://i.ibb.co/hFqVTSxg/024fe8de56f19929bf9ff802393e550ebbd7e847.jpg"
+  },
+  {
+    "title": "Product Name",
+    "price": 12500,
+    "originalPrice": 16500,
+    "reviewCount": 63,
+    "rating": 4,
+    "info": "piece 3",
+    "image": "https://i.ibb.co/4gJnVgGd/24dc1ace4a191dd3a3edcb6120edf9dd9b317fc2.jpg"
+  },
+  {
+    "title": "Product Name",
+    "price": 75999,
+    "originalPrice": 89999,
+    "reviewCount": 102,
+    "rating": 5,
+    "info": "piece 4",
+    "image": "https://i.ibb.co/YFvCF8pf/f82fda1d70a34fc231a75795f30c0f358d520932.jpg"
+  },
+  {
+    "title": "Product Name",
+    "price": 18999,
+    "originalPrice": 22999,
+    "reviewCount": 38,
+    "rating": 4,
+    "info": "piece 5",
+    "image": "https://i.ibb.co/hFqVTSxg/024fe8de56f19929bf9ff802393e550ebbd7e847.jpg"
+  }
+]
