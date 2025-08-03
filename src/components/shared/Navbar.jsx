@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="bg-base-200 shadow-sm py-1 fixed top-0 md:top-10 z-50 w-full">
+        <div className="bg-white shadow-sm py-1 fixed top-0 md:top-10 z-50 w-full">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
-                    <a className=" text-xl max-w-28">
+                    <Link to={'/'} className=" text-xl max-w-28">
                         <img src="/logo.png" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="flex justify-center items-center  px-4">
@@ -32,12 +32,12 @@ const Navbar = () => {
                             Login
                         </Link>
                     </button>
-                    <button className="p-3 bg-gray-800 text-white border rounded-xl">
-                        <Link className="flex gap-1 items-center">
+                    {/* <button className="p-3 bg-gray-800 text-white border rounded-xl">
+                        <Link to={'/cart'} className="flex gap-1 items-center">
                             <ShoppingCart />
                             <div className="badge font-bold badge-xs">2</div>
                         </Link>
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>

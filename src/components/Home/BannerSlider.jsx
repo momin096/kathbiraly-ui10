@@ -8,7 +8,7 @@ import "swiper/css/autoplay";
 const slides = [
     {
         id: 1,
-        image: "https://i.ibb.co/chzDd4YD/e1579ef41a00dcf4df46b1c310443a28a9a762eb.png", // replace with your real banner path
+        image: "https://i.ibb.co/chzDd4YD/e1579ef41a00dcf4df46b1c310443a28a9a762eb.png", 
         alt: "Sale is live now",
     },
     {
@@ -18,10 +18,15 @@ const slides = [
     },
     {
         id: 3,
+        image: "https://i.ibb.co/chzDd4YD/e1579ef41a00dcf4df46b1c310443a28a9a762eb.png", 
+        alt: "Sale is live now",
+    },
+    {
+        id: 4,
         image: "https://i.ibb.co/397BGVK5/aaac6a92556644cf1f89d7ed074bafb9d01208ed.png",
         alt: "Buy More & Win",
     },
-    // you can add more slides here
+    
 ];
 
 const BannerSlider = () => {

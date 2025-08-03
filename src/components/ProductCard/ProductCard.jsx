@@ -1,9 +1,14 @@
 
 import { Rating } from "@smastrom/react-rating";
 import '@smastrom/react-rating/style.css'
-import { Plus } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const ProductCard = ({ item }) => {
+    const navigate = useNavigate();
+
+    const handleBuyNow = () => {
+        navigate("/checkout", { state: { product: item } });
+    };
     const {
         image,
         rating,
@@ -47,7 +52,12 @@ const ProductCard = ({ item }) => {
                             <h1 className="font-bold text-2xl">$ {price}</h1> <span className="line-through">$ {originalPrice}</span>
                         </div>
                         <div className="">
-                            <Plus size={43} className="bg-gray-200 p-2  rounded-full" />
+                            <button
+                                onClick={handleBuyNow}
+                                className="px-2 py-1 rounded-md text-white text-lg font-bold bg-amber-500 hover:bg-amber-600"
+                            >
+                                Buy Now
+                            </button>
                         </div>
                     </div>
                 </div>
